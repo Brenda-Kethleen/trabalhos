@@ -1,0 +1,153 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+
+</head>
+
+<style>
+body{
+    /*cor do fundo da tela*/
+     background-color: #11319B;
+ }
+.titulo{
+		/*A tag color serve para mudar a cor da fonte*/
+		color: #E57000;
+
+		/*Aumenta o tamanho da fonte*/
+		font-size: 1.5em;
+
+		/*Posicionar o texto no centro*/
+		text-align: center;
+
+        /*selecionar o tipo de fonte*/
+		font-family: 'Fira Sans Condensed', sans-serif;
+	}
+
+    /*lista ordenada*/
+	.lista ol{
+		/*selecionar o tipo de fonte*/
+		font-family: 'Goblin One', cursive;
+
+        /*serve para mudar a cor da fonte*/
+		color: #51FFFF;
+}
+    .lista ul{
+        /*selecionar tipo de fonte*/
+    	font-family: 'Amatic SC', cursive;
+
+        /*mudar a cor da fonte*/
+    	color: #ACDB00;
+    }
+
+    .cachorro{
+        /*centralizar imagem(todas as margens)*/
+        margin: 1em;
+       
+        /*Ele não sai do lugar, e nem cria outra linha repetida, a não ser que assim eu ordene*/
+        position: absolute;
+
+        /*Largura da imagem*/
+        width: 716px;
+
+        /*Altura da imagem*/
+        height: 540px;
+
+        right: 30%;
+
+        margin-top: 6%;
+
+    }
+    
+    .cachorro2{
+        /*centralizar texto*/
+        text-align: center
+    }
+
+    .gato{
+        /*centralizar imagem(todas as margens)*/
+        margin: 0.5em;
+       
+        /*Ele não sai do lugar, e nem cria outra linha repetida, a não ser que assim eu ordene*/
+        position: absolute;
+
+        /*Largura da imagem (-25%)*/
+        width: 585px;
+
+        /*Altura da imagem(-25%)*/
+        height: 810px;
+
+        /*Mudar % para a direita*/
+        right: 30%;
+
+        /*Alinhar com o elemento mais alto*/
+        margin-top: 50%;
+    }
+
+    .gato2{
+        /*centralizar texto*/
+        text-align: center;
+        
+        /*Mudar cor da fonte*/
+        color: yellow;
+
+        /*Alinhar com o elemento mais alto*/
+        margin-top: 50%;
+
+    }
+</style>
+<body>
+    <!--Regras de estilo, separar CSS-->
+     <div class="titulo">
+        <h1> Animais </h1>
+     </div>
+
+     <div class="lista">
+     <!--lista ordenada-->
+     <ol>
+         <li> Cachorro </li>
+         <li> Gato </li>
+         <li> Leão </li>
+         <li> Vaca </li>
+         <li> Ovelha </li>
+
+    </ol>
+
+     <!--lista desordenada-->
+     <ul>
+         <li>  Fazenda/Sítio </li>
+         <li>  Floresta </li>
+         <li>  Casa(domésticos) </li>
+     </ul>
+
+     </div>
+
+     <div>
+          <!--inserir imagem-->
+          <img src= "cachorro.png" class="cachorro">
+     </div>
+
+     <div class=cachorro2>
+          <h2>Cachorro</h2>
+     </div>
+           
+     <div>
+          <img src= "gato.png" class="gato">
+     </div>
+
+     <div class=gato2>
+          <h2>Gato</h2>
+
+
+     </div>
+
+     <div>
+        <!--Tentativa de colocar duas cores em uma palavra-->
+        <linearGradient id="gato">
+            <stop offset="50%" stop-color="yellow"/>
+            <stop offset="50%" stop-color="white"/>
+
+     </div>
+
+
+</body>
+</html>
